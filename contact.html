@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+      <!-- Navigation -->
+      <div class="topnav" id="myTopnav">
+        <img class="logo" src="images/ecommerceimages/logo.png">
+        <a href="home.html" >Home</a>
+        <a href="products.html">Products</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="myTopNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <!-- Form -->
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <div class="contact-text">
+        <h4>Need to get in touch with us?</h4>
+        <p>Fill out the form below or send us an <a href="mailto:contact@lindoyquerido.com">email!</a></p>
+    </div>
+    <div class="contact-form">
+        <form class="contact">
+            <label for="name">Name:</label>
+            <input type="text" id="user-name" name="user-name" placeholder="Type name here..." required><br>
+            <label for="phone-number">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="555-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="contact-method">Preferred Contact Method:</label>
+            <select id="contact-method" required>
+                <option value="email">Email</option>
+                <option value="phone-call">Phone Call</option>
+                <option value="text">Text</option>
+            </select><br>
+            <label for="user-message">Message:</label>
+            <textarea id="user-message" name="user-message"></textarea><br>
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="left">
+            <a href="home.html"><img class="logo" src="images/ecommerceimages/logo.png"></a>
+        </div>
+
+        <div class="footer-mid">
+            <p>&copy; 2024 Lindo y Querido</p>
+        </div>
+        <div class="footer-right">
+            <ul class="icons">
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

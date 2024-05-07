@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f7eb;
+    color:#8E4406
+}
+
+.footer {
+    padding: 1rem;
+    background: dark-gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+  
+.footer-left {
+    float: left;
+}
+
+.icons{
+   display: inline-flex;
+   float: right;
+   text-decoration: none;
+   list-style: none;
+
+}
+
+.fa {
+    color:#8E4406
+}
+
+.icons li {
+    padding: 20px;
+    font-size: 1.2rem;
+}

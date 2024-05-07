@@ -1,0 +1,108 @@
+html {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #f9f7eb;
+        color:#8E4406
+    }
+
+.logo{
+        width: 75px;
+        float: left;
+    }
+    
+    .topnav {
+        background-color: #f9f7eb;
+        overflow: hidden;
+      }
+      
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: right;
+        display: block;
+        color: #8E4406;
+        justify-content: center;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1rem;
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        color: #c8aa91;
+      }
+    
+h1 {
+    text-align: center;
+}
+
+.contact-text {
+    text-align: center;
+}
+
+.contact {
+    border: 2px solid #8E4406;
+    border-radius: 10px;
+    width: 60%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7% auto;
+}
+
+label {
+ margin-bottom: 10px;
+}
+
+.submit-btn {
+    width: 25%;
+    margin: auto;
+    background-color: #8E4406;
+    color: white;
+    border: none;
+    font-size: 1rem;
+}
+
+.submit-btn:hover {
+    background: #966944;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    background: dark-gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+  
+.footer-left {
+    float: left;
+}
+
+.icons{
+   display: inline-flex;
+   float: right;
+   text-decoration: none;
+   list-style: none;
+
+}
+
+.fa {
+    color:#8E4406
+}
+
+.icons li {
+    padding: 20px;
+    font-size: 1.2rem;
+}
